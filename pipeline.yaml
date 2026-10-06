@@ -1,0 +1,16 @@
+name: pipeline
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: copia repositorio
+        uses : actions/checkoutt@v7
+
+      - name: mostrar
+        uses: echo $(1s)
+        
+
+      
