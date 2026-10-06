@@ -7,10 +7,13 @@ jobs:
 
     steps:
       - name: copia repositorio
-        uses : actions/checkoutt@v7
+        uses : actions/checkoutt@v7]
+
+      - name: acha o arquivo python  
+        run: ls -la calc.py
 
       - name: abrir codigo
-        uses: echo $(1s)
+        run: python calc.py
 
 
       
