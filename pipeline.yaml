@@ -9,8 +9,8 @@ jobs:
       - name: copia repositorio
         uses : actions/checkoutt@v7
 
-      - name: mostrar
+      - name: abrir codigo
         uses: echo $(1s)
-        
+
 
       
